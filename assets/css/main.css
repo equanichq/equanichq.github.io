@@ -2927,9 +2927,7 @@
 					font-size: 13pt;
 				}
 
-				.wrapper.style1 img.style1 { /*eq*/
-					left: 50%;
-				}
+
 
 			}
 
@@ -2969,10 +2967,14 @@
 		}
 
 		.wrapper.style2 p.quotename {
-			letter-spacing: 1px;
-			font-weight: 400;
+			font-weight: 500;
+			font-family: Dosis;
+			font-size: 16pt;
 		    text-align: right;
 		    color: #CDDC39;
+		    padding: 0;
+		    margin: 0;
+		    white-space: nowrap;
 		}
 
 		.wrapper.style2 i {
@@ -2984,7 +2986,7 @@
 body { width: 100%; max-width: 100%; height: auto;
  }
 			.wrapper.style2 p.quote {
-			    font-size: 17pt;
+			    font-size: 19pt;
 			    font-weight: 400;
 			    line-height: 1.5em;
 			    width: 100%;
@@ -2995,8 +2997,8 @@ body { width: 100%; max-width: 100%; height: auto;
 
 			.wrapper.style2 div.style2 {
 				padding: 2em;
-				background-image: none;
 				background-color: #455a64;
+				background-image: none;
 			}
 		}
 
@@ -3019,6 +3021,10 @@ body { width: 100%; max-width: 100%; height: auto;
 			.wrapper.style3 h3.style3 {
 		    	position: relative;
 		    }
+
+			.wrapper.style3 p.style3 {
+				font-size: 13pt;	
+			}
 
 			.wrapper.style3 hr {
 				border-color: rgba(0, 0, 0, 0.125);
@@ -3902,7 +3908,6 @@ body { width: 100%; max-width: 100%; height: auto;
 			}
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
 				min-height: 0;
 			}
 
