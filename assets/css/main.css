@@ -2558,7 +2558,7 @@
 			@media screen and (max-width: 736px) {
 
 				.features li {
-					padding: 1em 1em 2em 1em ;
+					padding: 1em 0.5em 2em 1em ;
 					/*background-color: transparent !important;*/
 					width: 100%;
 					margin-bottom: 1em;
@@ -4147,6 +4147,7 @@ body { width: 100%; max-width: 100%; height: auto;
 			letter-spacing: 0.225em;
 			list-style: none;
 			margin: 0;
+			background-color: rgba(250, 250, 250, 0.5);
 		}
 
 			#footer .copyright img {
@@ -4196,6 +4197,7 @@ body { width: 100%; max-width: 100%; height: auto;
 						line-height: 1.65em;
 						margin: 0;
 						padding: 0.5em 0;
+						color: rgba(0,0,0,0.87);
 					}
 
 				}
