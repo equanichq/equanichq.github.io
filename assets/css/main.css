@@ -3212,6 +3212,10 @@ body { width: 100%; max-width: 100%; height: auto;
 			}
 
 		@media screen and (max-width: 736px) {
+			.wrapper.style4 {
+				background-image: none;
+			}
+
 			.wrapper.style4 div.style4 {
 				background-image: none;
 				background-color: #455a64;
@@ -4223,10 +4227,6 @@ body { width: 100%; max-width: 100%; height: auto;
 	}
 
 	body.landing #footer {
-		background-image: url("../../images/box.png"); /*eq*/
-		background-repeat: no-repeat;
-		background-size: contain;
-		display: inline-block;
 		width: 100%;
 		position: relative;
 		background: #FAFAFA; /*eq backg*/
