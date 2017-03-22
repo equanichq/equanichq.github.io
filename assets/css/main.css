@@ -3593,7 +3593,7 @@ body { width: 100%; max-width: 100%; height: auto;
 			background-image: url("../../images/box.png"); /*eq*/
 			background-repeat: no-repeat;
 			background-size: 40px;
-			background-position: 1em 7px;
+			background-position: 1em 8px;
 			display: block;
 			position: relative;
 		}
@@ -3610,6 +3610,11 @@ body { width: 100%; max-width: 100%; height: auto;
 
 					#header h1 a {
 						font-size: 13pt;
+					}
+
+					#header img.eqtext {
+						top: 0.75em;
+						left: 4.7em;
 					}
 
 				}
