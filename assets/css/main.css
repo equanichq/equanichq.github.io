@@ -3887,10 +3887,10 @@ body { width: 100%; max-width: 100%; height: auto;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			-moz-transition: opacity 5s ease-in-out; /*eq*/
-			-webkit-transition: opacity 5s ease-in-out;
-			-ms-transition: opacity 5s ease-in-out;
-			transition: opacity 5s ease-in-out;
+			-moz-transition: opacity 2s ease-in-out; /*eq*/
+			-webkit-transition: opacity 2s ease-in-out;
+			-ms-transition: opacity 2s ease-in-out;
+			transition: opacity 2s ease-in-out;
 			-moz-transition-delay: 0s;
 			-webkit-transition-delay: 0s;
 			-ms-transition-delay: 0s;
