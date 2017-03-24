@@ -3954,6 +3954,13 @@ body { width: 100%; max-width: 100%; height: auto;
 			}
 		}
 
+		@media screen and (max-width: 732px) and (orientation: landscape) { 
+
+			#banner div.eqlogo {
+				top: 15%;
+			}
+		}
+
 
 	body.is-loading #banner h2 {
 		-moz-transform: scale(0.95);
