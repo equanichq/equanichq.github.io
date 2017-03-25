@@ -3998,6 +3998,10 @@ body { width: 100%; max-width: 100%; height: auto;
 		margin-right: 10em;
 	}
 
+		#cta .inner a:hover {
+			color: #827717;
+		}
+
 		#cta .inner header {
 			-moz-order: 1;
 			-webkit-order: 1;
