@@ -2960,7 +2960,7 @@
 		}
 
 		.wrapper.style2 p.quote {
-			font-family: "Dosis"; 
+			font-family: "Dosis";
    			font-weight: 200;
    			letter-spacing: 2px;
 		    font-size: 30px;
@@ -3027,7 +3027,7 @@ body { width: 100%; max-width: 100%; height: auto;
 		    }
 
 			.wrapper.style3 p.style3 {
-				font-size: 13pt;	
+				font-size: 13pt;
 			}
 
 			.wrapper.style3 hr {
@@ -3910,7 +3910,7 @@ body { width: 100%; max-width: 100%; height: auto;
 
 			#banner div.eqlogo {
 				background-size: contain;
-				top: 30%;
+				top: 200px;
 				height: 100px;
 				width: 100%;
 				position: absolute;
@@ -3947,17 +3947,17 @@ body { width: 100%; max-width: 100%; height: auto;
 
 		}
 
-		@media screen and (max-width: 667px) and (orientation: landscape) { 
+		@media screen and (max-width: 667px) and (orientation: landscape) {
 
 			#banner div.eqlogo {
 				top: 15%;
 			}
 		}
 
-		@media screen and (max-width: 732px) and (orientation: landscape) { 
+		@media screen and (max-width: 732px) and (orientation: landscape) {
 
 			#banner div.eqlogo {
-				top: 15%;
+				top: 60px;
 			}
 		}
 
@@ -4006,7 +4006,7 @@ body { width: 100%; max-width: 100%; height: auto;
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
-			order: 1;			
+			order: 1;
 		}
 
 			#cta .inner header p {
