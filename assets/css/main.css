@@ -2025,7 +2025,7 @@
 			padding-top: 0.1em;
 		}
 
-		.icon.style4 {
+		.icon.style5 {
 			color: #063B6F;
 			margin-bottom: 50px;
 			margin-left: 50px;
@@ -2584,7 +2584,12 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+    padding: 2em;
 	}
+
+		.spotlight.style2 {
+      padding: 0;
+    }
 
 		.spotlight .image {
 			-moz-order: 1;
@@ -2592,7 +2597,7 @@
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 25%;
 		}
 
 			.spotlight .image img {
@@ -2601,40 +2606,44 @@
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+      margin: 0 auto;
+		}
+
+    .spotlight .content h2 {
+      padding-top: 0;
 		}
 
 		.spotlight:nth-child(2n) {
-			-moz-flex-direction: row-reverse;
+		/*	-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
+			flex-direction: row-reverse;*/
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(0, 0, 0, 0.01);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.02);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(0, 0, 0, 0.03);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgba(0, 0, 0, 0.04);
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 
 		.spotlight:nth-child(6) {
@@ -3184,7 +3193,24 @@ body { width: 100%; max-width: 100%; height: auto;
 
 			}
 
-		.wrapper.style4 { /*eq para*/
+    .wrapper.style4 { /*eq para*/
+			background-color: white;
+			width: 100%;
+			margin-top: 7em;
+		}
+
+      .wrapper.style4 .major { /*eq para*/
+  			background-color: white;
+  			width: 100%;
+  			padding-bottom: 2em;
+        text-align: center;
+  		}
+
+      .wrapper.style4 p { /*eq para*/
+  			color: #000;
+  		}
+
+		.wrapper.style5 { /*eq para*/
 			background-image: url("../../images/banner-winterforest.jpg"); /*eq*/
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -3194,7 +3220,7 @@ body { width: 100%; max-width: 100%; height: auto;
 			padding: 0;
 		}
 
-		.wrapper.style4 div.style4 { /*eq para*/
+		.wrapper.style5 div.style5 { /*eq para*/
 			background-color: rgba(255, 255, 255, 0.75);
 			/*background: -webkit-linear-gradient(left, black, rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
 			/*background: -o-linear-gradient(right, black, rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
@@ -3207,7 +3233,7 @@ body { width: 100%; max-width: 100%; height: auto;
 			margin: auto;
 		}
 
-			.wrapper.style4 h2 {
+			.wrapper.style5 h2 {
 				color: #000;
 				padding: 0;
 				border-bottom: solid 10px #afb42b;
@@ -3216,16 +3242,16 @@ body { width: 100%; max-width: 100%; height: auto;
 			}
 
 		@media screen and (max-width: 736px) {
-			.wrapper.style4 {
+			.wrapper.style5 {
 				background-image: none;
 			}
 
-			.wrapper.style4 div.style4 {
+			.wrapper.style5 div.style5 {
 				background-image: none;
 				background-color: #455a64;
 			}
 
-			.wrapper.style4 h2 {
+			.wrapper.style5 h2 {
 				color: #FFF;
 			}
 		}
@@ -3276,7 +3302,7 @@ body { width: 100%; max-width: 100%; height: auto;
 			.wrapper.style5 input[type="email"],
 			.wrapper.style5 select,
 			.wrapper.style5 textarea {
-				background: rgba(0, 0, 0, 0.0375);
+				/*background: rgba(0, 0, 0, 0.0375);*/
 			}
 
 			.wrapper.style5 .select-wrapper:before {
@@ -4275,7 +4301,7 @@ body { width: 100%; max-width: 100%; height: auto;
 	}
 
 	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
+	body.is-mobile.landing .wrapper.style5 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
