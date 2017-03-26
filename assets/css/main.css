@@ -2194,7 +2194,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  padding: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
 }
 
 .spotlight.style2 {
@@ -2220,9 +2221,9 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   -webkit-order: 2;
   -ms-order: 2;
   order: 2;
-  max-width: 48em;
-  width: 60%;
-  margin: 0 auto;
+  /*max-width: 48em;*/
+  width: 70%;
+  margin-left: 2em;
 }
 
 .spotlight .content h2 {
@@ -2238,23 +2239,23 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .spotlight:nth-child(1) {
-  background-color: rgba(0, 0, 0, 0.01);
+  /*background-color: rgba(0, 0, 0, 0.01);*/
 }
 
 .spotlight:nth-child(2) {
-  background-color: rgba(0, 0, 0, 0.02);
+  /*background-color: rgba(0, 0, 0, 0.02);*/
 }
 
 .spotlight:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.03);
+  /*background-color: rgba(0, 0, 0, 0.03);*/
 }
 
 .spotlight:nth-child(4) {
-  background-color: rgba(0, 0, 0, 0.04);
+  /*background-color: rgba(0, 0, 0, 0.04);*/
 }
 
 .spotlight:nth-child(5) {
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
 }
 
 .spotlight:nth-child(6) {
@@ -2307,6 +2308,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 @media screen and (max-width: 736px) {
   .spotlight .content {
     padding: 3em 2em 1em 2em;
+    margin-left: 0;
   }
   .spotlight .content h2 {
     line-height: 1em;
