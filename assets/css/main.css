@@ -2616,7 +2616,8 @@
 		}
 
     .spotlight .content h2 {
-      padding-top: 0;
+      padding: 0;
+      line-height: 0.5em;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2706,6 +2707,10 @@
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
 			}
+
+      .spotlight .content h2 {
+        line-height: 1em;
+  		}
 
 		}
 
