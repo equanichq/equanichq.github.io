@@ -2219,11 +2219,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .spotlight:nth-child(4) {
-  padding-bottom: 6em;
 }
 
 .spotlight:nth-child(5) {
-
+  padding-bottom: 6em;
 }
 
 .spotlight:nth-child(6) {
@@ -2708,6 +2707,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 .wrapper.style4 {
   background-color: white;
   width: 100%;
+  padding-top: 1em;
 }
 
 .wrapper.style4 .major {
@@ -2729,6 +2729,13 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   width: 100%;
   height: 200px;
   margin-bottom: 1em;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style4 div.eqlogo {
+    height: 100px;
+    margin-bottom: 2em;
+  }
 }
 
 .wrapper.style5 {
