@@ -48,6 +48,7 @@ table {
 
 body {
   -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
 }
 
 
@@ -1587,7 +1588,6 @@ input[type="radio"]+label:before {
   transform: rotate(-45deg);
   border-radius: 10px;
   border: dotted;
-  2px #fff;
   display: inline-block;
   font-size: 2em;
   height: calc(3em + 2px);
@@ -2412,8 +2412,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .wrapper.style1 .inner {
-  /*padding-top: 5em;
-				padding-bottom: 5em;*/
+/*padding-top: 5em;
+	padding-bottom: 5em;*/
 }
 
 .wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {}
