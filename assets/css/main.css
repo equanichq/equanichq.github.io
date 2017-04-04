@@ -2162,9 +2162,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  padding-left: 2em;
-  padding-bottom: 2em;
-  width: 90%;
+  padding-left: 3em;
+  padding-bottom: 3em;
   margin: 0 auto;
 }
 
@@ -2178,7 +2177,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   -ms-order: 1;
   order: 1;
   border-radius: 0;
-  width: 40%;
+  width: 400px;
 }
 
 .spotlight .image img {
@@ -2192,7 +2191,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   -ms-order: 2;
   order: 2;
   width: 60%;
-  margin-left: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .spotlight .content h2 {
