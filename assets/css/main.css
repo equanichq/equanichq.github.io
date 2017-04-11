@@ -2178,11 +2178,14 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   order: 1;
   border-radius: 0;
   width: 400px;
+  position: relative;
 }
 
 .spotlight .image img {
   border-radius: 0;
   width: 100%;
+  position: relative;
+  top: -0.5em;
 }
 
 .spotlight .content {
@@ -2359,6 +2362,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   border-radius: 10px;
   line-height: 1.5em;
   padding-bottom: 8em;
+  font-size: 15pt;
 }
 
 .wrapper.style1 img.style1 {
@@ -2719,6 +2723,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .wrapper.style4 p {
   color: #000;
+  padding-bottom: 0.75em;
 }
 
 .wrapper.style4 div.eqlogo {
