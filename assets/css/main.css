@@ -3462,6 +3462,7 @@ body.is-loading #banner:after {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 1px;
+  font-size: 14pt;
 }
 
 #cta .inner .actions {
