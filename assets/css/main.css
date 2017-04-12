@@ -2273,7 +2273,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   .spotlight .content {
     padding: 4em 3em 2em 3em;
     max-width: none;
-    text-align: center;
     width: 100%;
   }
 }
@@ -2286,6 +2285,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   .spotlight .content h2 {
     line-height: 1em;
   }
+  .spotlight .content h3 {
+    text-align: center;
+  }
+
   .spotlight:nth-child(5) {
     padding: 0em;
   }
@@ -2741,6 +2744,11 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 .wrapper.style4 {
   padding: 3em 1em 1em 1em;
   }
+
+  .wrapper.style4 p {
+    text-align: left;
+  }
+
 
   .wrapper.style4 div.eqlogo {
     height: 100px;
