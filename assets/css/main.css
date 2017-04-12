@@ -2186,7 +2186,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   border-radius: 0;
   width: 100%;
   position: relative;
-  top: -0.5em;
 }
 
 .spotlight .content {
