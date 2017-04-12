@@ -1216,6 +1216,7 @@ h3 {
   h3 {
     font-size: 2em;
     line-height: 1.65em;
+    letter-spacing: 0.1em;
   }
 }
 
@@ -2261,6 +2262,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 @media screen and (max-width: 980px) {
   .spotlight {
     display: block;
+    padding: 0;
   }
   .spotlight br {
     display: inline;
@@ -2278,11 +2280,14 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 @media screen and (max-width: 736px) {
   .spotlight .content {
-    padding: 3em 2em 1em 2em;
+    padding: 1em 0em 3em 0em;
     margin-left: 0;
   }
   .spotlight .content h2 {
     line-height: 1em;
+  }
+  .spotlight:nth-child(5) {
+    padding: 0;
   }
 }
 
@@ -2700,7 +2705,9 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   }
   .wrapper.style3 header p {
     width: 100%;
-    text-align: center;
+    .wrapper.style4 {
+      text-align: center
+    ;
   }
 }
 
@@ -2733,6 +2740,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 @media screen and (max-width: 736px) {
+.wrapper.style4 {
+  padding: 3em 1em 1em 1em;
+  }
+
   .wrapper.style4 div.eqlogo {
     height: 100px;
     margin-bottom: 2em;
@@ -2753,8 +2764,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
   height: 100%;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   margin: auto;
 }
 
@@ -2820,7 +2831,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .wrapper.style5 input[type="text"], .wrapper.style5 input[type="password"], .wrapper.style5 input[type="email"], .wrapper.style5 select, .wrapper.style5 textarea {
-
+  background: white;
 }
 
 .wrapper.style5 .select-wrapper:before {
@@ -3488,11 +3499,14 @@ body.is-loading #banner:after {
     max-width: 20em;
     width: 100%;
   }
+  #cta .inner a {
+    color: #cddc39;
+  }
 }
 
 @media screen and (max-width: 736px) {
   #cta .inner {
-    margin: 2em;
+    margin: 1.5em;
   }
   #cta .inner .actions {
     max-width: none;
@@ -3618,7 +3632,7 @@ body.is-mobile #main>header {
   font-family: "Dosis";
   font-size: 12pt;
   font-weight: 500;
-  color: #BDBDBD;
+  color: #9e9e9e;
 }
 
 #footer .copyright li:first-child {
