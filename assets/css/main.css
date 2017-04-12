@@ -1347,6 +1347,11 @@ header.major p {
   header.major {
     margin: 0 0 0 0;
   }
+
+  header.major p {
+    font-size: inherit;
+  }
+
 }
 
 @media screen and (max-width: 980px) {
@@ -2595,7 +2600,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .wrapper.style3 header p {
   color: #000;
-  font-size: 15pt;
   line-height: 1.5em;
   width: 70%;
   text-align: center;
