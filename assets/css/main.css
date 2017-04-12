@@ -1339,6 +1339,7 @@ header.major h2:after, header.major h3:after, header.major h4:after, header.majo
 header.major p {
   color: #fff;
   top: 0;
+  font-size: 15pt;
 }
 
 @media screen and (max-width: 736px) {
@@ -2573,10 +2574,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   position: relative;
 }
 
-.wrapper.style3 p.style3 {
-  font-size: 13pt;
-}
-
 .wrapper.style3 hr {
   border-color: rgba(0, 0, 0, 0.125);
 }
@@ -3104,7 +3101,7 @@ body.is-menu-visible #menu {
 }
 
 #header div.menu a:hover {
-  color: #CDDC39;
+  color: #2196F3;
 }
 
 #header div.eqlogo {
@@ -3445,8 +3442,12 @@ body.is-loading #banner:after {
   margin-right: 10em;
 }
 
+#cta .inner a {
+  color: #0d47a1;
+}
+
 #cta .inner a:hover {
-  color: #827717;
+  color: #000000;
 }
 
 #cta .inner header {
