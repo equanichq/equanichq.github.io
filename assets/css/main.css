@@ -2801,7 +2801,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .wrapper.style5 {
   background-color: #ffffff;
-  color: #4E4852;
+  color: #FFF;
 }
 
 .wrapper.style5 strong, .wrapper.style5 b {
@@ -2933,6 +2933,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
   .wrapper.style5 input[type="text"], .wrapper.style5 input[type="password"], .wrapper.style5 input[type="email"], .wrapper.style5 select, .wrapper.style5 textarea {
     background: white;
+  }
+
+  .wrapper.style5 {
+    color: rgba(0,0,0,0.8);
   }
 }
 
