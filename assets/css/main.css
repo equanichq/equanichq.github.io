@@ -1200,7 +1200,7 @@ h2 {
 
 @media screen and (max-width: 736px) {
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1.65em;
     padding-top: 0em;
   }
@@ -1214,9 +1214,10 @@ h3 {
 
 @media screen and (max-width: 736px) {
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.65em;
     letter-spacing: 0em;
+    font-weight: 400;
   }
 }
 
@@ -2550,7 +2551,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
     height: auto;
   }
   .wrapper.style2 p.quote {
-    font-size: 19pt;
+    font-size: 13pt;
     font-weight: 400;
     line-height: 1.5em;
     width: 100%;
@@ -3158,8 +3159,8 @@ body.is-menu-visible #menu {
     font-size: 13pt;
   }
   #header img.eqtext {
-    top: 0.75em;
-    left: 4.7em;
+    /*top: 0.75em;
+    left: 4.7em;*/
   }
 }
 
@@ -3403,7 +3404,7 @@ body.is-menu-visible #menu {
     padding-top: 120px;
   }
   #banner img {
-    width: 200px;
+    width: 300px;
     margin: 0 auto;
   }
   #banner {
@@ -3415,8 +3416,8 @@ body.is-menu-visible #menu {
   }
   #banner p {
     top: 10px;
-    font-size: 8pt;
-    font-weight: 600;
+    font-size: 12pt;
+    /*font-weight: 600;*/
     letter-spacing: 0.1em;
   }
   #banner br {
@@ -3493,7 +3494,7 @@ body.is-loading #banner:after {
 #cta .inner header p {
   color: #000;
   margin-right: 3em;
-  font-weight: 400;
+  /*font-weight: 400;*/
   line-height: 1.5em;
   letter-spacing: 1px;
   font-size: 14pt;
@@ -3733,10 +3734,10 @@ body.is-mobile.landing #page-wrapper {
 }
 
 body.is-mobile.landing #banner, body.is-mobile.landing .wrapper.style5 {
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
