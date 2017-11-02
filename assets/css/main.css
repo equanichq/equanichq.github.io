@@ -2516,8 +2516,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   width: 100%;
   padding-top: 6em;
   padding-bottom: 6em;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
   line-height: 50px;
 }
 
