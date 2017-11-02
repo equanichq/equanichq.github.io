@@ -3396,12 +3396,12 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 732px) {
   #banner div.eqlogo {
     width: 100%;
-    height: 100px;
+    height: 150px;
     top: 25%;
     position: absolute;
   }
   #banner .inner {
-    padding-top: 120px;
+    padding-top: 150px;
   }
   #banner img {
     width: 300px;
