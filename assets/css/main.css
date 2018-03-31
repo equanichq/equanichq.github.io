@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url(font-awesome.css);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic|Dosis:200,300,400,500,600,700,800|Quicksand:300|Sniglet:400|Roboto:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic|Rubik:300|Roboto:100,300,400|Rubik:300,400');
 
 /*
 	Spectral by HTML5 UP
@@ -1180,10 +1180,10 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.87);
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
   line-height: 1em;
   margin: 0 0 0.5em 0;
-  font-family: "Quicksand";
+  font-family: "Rubik";
   font-weight: 300;
 }
 
@@ -1208,7 +1208,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.1em; */
   line-height: 1.75em;
 }
 
@@ -2522,7 +2522,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .wrapper.style2 p.quote {
-  font-family: "Quicksand";
+  font-family: "Rubik";
   font-weight: 200;
   /*letter-spacing: 2px;*/
   font-size: 30px;
@@ -2530,8 +2530,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .wrapper.style2 p.quotename {
-  font-weight: 500;
-  font-family: Quicksand;
+  /* font-weight: 500; */
+  font-family: Rubik;
   font-size: 24pt;
   text-align: right;
   color: #CDDC39;
@@ -3127,7 +3127,7 @@ body.is-menu-visible #menu {
   position: absolute;
   top: 0;
   font-size: 15pt;
-  font-family: "Quicksand";
+  font-family: "Rubik";
   /*font-weight: 500;*/
   letter-spacing: 2px;
   color: rgba(0, 0, 0, 0.87);
@@ -3152,6 +3152,17 @@ body.is-menu-visible #menu {
   position: relative;
   top: 0.5em;
   left: 4em;
+}
+
+#header div.eqtext {
+  /* height: 35px; */
+  font-family: Rubik;
+  font-size: 21pt;
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  position: relative;
+  /* top: 0.1em; */
+  left: 2.1em;
 }
 
 @media screen and (max-width: 736px) {
@@ -3279,7 +3290,15 @@ body.is-menu-visible #menu {
 
 #banner .inner {
   text-align: center;
-  padding-top: 250px;
+}
+
+#banner .title {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 100pt;
+  font-family: Rubik;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 #banner h2:before, #banner h2:after {
@@ -3310,10 +3329,12 @@ body.is-menu-visible #menu {
 }
 
 #banner p {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.125em;
   font-size: 24px;
-  font-family: "Quicksand";
-  color: #FFF;
+  font-family: Rubik;
+  font-weight: 400;
+  padding-top: 5%;
+  /* color: rgb(0, 0, 0); */
 }
 
 #banner p a {
@@ -3335,7 +3356,7 @@ body.is-menu-visible #menu {
   transform: translateY(0);
   border: none;
   bottom: 0;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   font-size: 0.8em;
   height: 8.5em;
   left: 50%;
@@ -3346,7 +3367,7 @@ body.is-menu-visible #menu {
   padding-left: 0.225em;
   position: absolute;
   text-align: center;
-  font-family: "Quicksand";
+  font-family: "Rubik";
   font-weight: 500;
   text-transform: uppercase;
   width: 16em;
@@ -3383,7 +3404,7 @@ body.is-menu-visible #menu {
   -ms-transition-delay: 0s;
   transition-delay: 0s;
   content: '';
-  background: #000;
+  background: rgb(255, 255, 255);
   display: block;
   width: 100%;
   height: 100%;
@@ -3400,6 +3421,16 @@ body.is-menu-visible #menu {
     top: 25%;
     position: absolute;
   }
+
+  #banner .title {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 60pt;
+    font-family: Rubik;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
   #banner .inner {
     padding-top: 150px;
   }
@@ -3419,6 +3450,7 @@ body.is-menu-visible #menu {
     font-size: 12pt;
     /*font-weight: 600;*/
     letter-spacing: 0.1em;
+    padding-top: 7.5%;
   }
   #banner br {
     display: none;
@@ -3653,7 +3685,7 @@ body.is-mobile #main>header {
   line-height: 1.50em;
   margin-left: 0em;
   padding-left: 0em;
-  font-family: "Quicksand";
+  font-family: "Rubik";
   font-size: 12pt;
   font-weight: 500;
   color: #9e9e9e;
@@ -3712,10 +3744,10 @@ body.is-mobile #main>header {
 /* Landing */
 
 body.landing #page-wrapper {
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), url("../../images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), url("../../images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), url("../../images/banner.jpg");
+  background-image: linear-gradient(top, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), url("../../images/banner.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3734,10 +3766,10 @@ body.is-mobile.landing #page-wrapper {
 }
 
 body.is-mobile.landing #banner, body.is-mobile.landing .wrapper.style5 {
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../../images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../../images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../../images/banner.jpg");
+  background-image: linear-gradient(top, rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../../images/banner.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
