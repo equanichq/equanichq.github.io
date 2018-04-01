@@ -2132,6 +2132,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 @media screen and (max-width: 980px) {
   .features li {
     padding: 3em 2em 1em 2em;
+    width: 90%;
+    border-bottom: 1em;
   }
   .features li:before {
     left: 0;
@@ -2512,6 +2514,12 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   .wrapper.style1 div.style1 {
     width: 100%;
     font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style1 div.style1 {
+    width: 75%;
   }
 }
 
