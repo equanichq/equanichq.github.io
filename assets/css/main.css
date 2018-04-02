@@ -2279,7 +2279,13 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   .spotlight .content {
     padding: 4em 3em 2em 3em;
     max-width: none;
-    width: 100%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .spotlight .image img {
+    width: 80%;
   }
 }
 
