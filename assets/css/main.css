@@ -2969,7 +2969,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .wrapper.style5 h2 {
   padding: 0;
-  border-bottom: solid 10px rgb(255, 255, 255);
+  border-bottom: solid 10px rgb(204, 204, 204);
   display: inline-block;
   position: relative;
 }
@@ -3321,11 +3321,11 @@ body.is-menu-visible #menu {
 }
 
 #header div.menu a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(66, 165, 245);
 }
 
 #header div.eqlogo {
-  background-color: #CCDDE6;
+  background-color: rgb(247, 247, 247);
   background-image: url("../../images/box.png");
   background-repeat: no-repeat;
   background-size: 40px;
@@ -3921,7 +3921,7 @@ body.is-mobile #main>header {
   padding-left: 0em;
   font-family: "Rubik";
   font-size: 12pt;
-  font-weight: 500;
+  font-weight: 400;
   color: #9e9e9e;
 }
 
